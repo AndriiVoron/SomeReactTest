@@ -1,0 +1,12 @@
+.imageFigure {
+  margin:0 auto;
+  padding:20px;
+  width:100%;
+  max-width: 700px;
+}
+.imageFigure img{
+  width:100%;
+}
+.imageFigure figcaption{
+  text-align: left;
+}

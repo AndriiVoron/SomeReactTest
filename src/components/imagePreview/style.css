@@ -1,0 +1,36 @@
+.imageItem {
+  padding: 5px;
+  border: 1px solid black;
+  position: relative;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-bottom: 15px;
+  background-color: whitesmoke;
+}
+.imageLink{
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.imageThumbnail {
+  margin:0;
+  padding: 5px;
+}
+.imageThumbnail figcaption{
+  text-align: left;
+}
+
+@media screen and (min-width: 562px) {
+  .imageItem {
+    width: 46%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .imageItem {
+    width: 30%;
+  }
+}
